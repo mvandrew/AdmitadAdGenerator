@@ -33,7 +33,7 @@
             this.admitadAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.admitadProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.операцииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.topMenu.SuspendLayout();
             this.SuspendLayout();
@@ -55,7 +55,7 @@
             this.admitadAccountToolStripMenuItem,
             this.admitadProgramToolStripMenuItem,
             this.toolStripMenuItem1,
-            this.выходToolStripMenuItem});
+            this.exitToolStripMenuItem});
             this.admitadToolStripMenuItem.Name = "admitadToolStripMenuItem";
             this.admitadToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.admitadToolStripMenuItem.Text = "Admitad";
@@ -77,12 +77,13 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(149, 6);
             // 
-            // выходToolStripMenuItem
+            // exitToolStripMenuItem
             // 
-            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.выходToolStripMenuItem.Text = "&Выход";
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Text = "&Выход";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // операцииToolStripMenuItem
             // 
@@ -115,7 +116,7 @@
         private System.Windows.Forms.ToolStripMenuItem admitadAccountToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem admitadProgramToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem операцииToolStripMenuItem;
     }
 }
