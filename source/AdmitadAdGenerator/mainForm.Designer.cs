@@ -34,7 +34,11 @@
             this.admitadProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.операцииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.feedRefreshТоварныхФидовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.adsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adsRefreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.topMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +46,7 @@
             // 
             this.topMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.admitadToolStripMenuItem,
-            this.операцииToolStripMenuItem});
+            this.actionsToolStripMenuItem});
             this.topMenu.Location = new System.Drawing.Point(0, 0);
             this.topMenu.Name = "topMenu";
             this.topMenu.Size = new System.Drawing.Size(822, 24);
@@ -58,7 +62,7 @@
             this.exitToolStripMenuItem});
             this.admitadToolStripMenuItem.Name = "admitadToolStripMenuItem";
             this.admitadToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.admitadToolStripMenuItem.Text = "Admitad";
+            this.admitadToolStripMenuItem.Text = "&Admitad";
             // 
             // admitadAccountToolStripMenuItem
             // 
@@ -85,11 +89,41 @@
             this.exitToolStripMenuItem.Text = "&Выход";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
-            // операцииToolStripMenuItem
+            // actionsToolStripMenuItem
             // 
-            this.операцииToolStripMenuItem.Name = "операцииToolStripMenuItem";
-            this.операцииToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.операцииToolStripMenuItem.Text = "Операции";
+            this.actionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.feedRefreshТоварныхФидовToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.adsToolStripMenuItem,
+            this.adsRefreshToolStripMenuItem});
+            this.actionsToolStripMenuItem.Name = "actionsToolStripMenuItem";
+            this.actionsToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.actionsToolStripMenuItem.Text = "О&перации";
+            // 
+            // feedRefreshТоварныхФидовToolStripMenuItem
+            // 
+            this.feedRefreshТоварныхФидовToolStripMenuItem.Name = "feedRefreshТоварныхФидовToolStripMenuItem";
+            this.feedRefreshТоварныхФидовToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F5)));
+            this.feedRefreshТоварныхФидовToolStripMenuItem.Size = new System.Drawing.Size(375, 22);
+            this.feedRefreshТоварныхФидовToolStripMenuItem.Text = "&Обновление товарных фидов";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(372, 6);
+            // 
+            // adsToolStripMenuItem
+            // 
+            this.adsToolStripMenuItem.Name = "adsToolStripMenuItem";
+            this.adsToolStripMenuItem.Size = new System.Drawing.Size(375, 22);
+            this.adsToolStripMenuItem.Text = "Рекламные кампании";
+            // 
+            // adsRefreshToolStripMenuItem
+            // 
+            this.adsRefreshToolStripMenuItem.Name = "adsRefreshToolStripMenuItem";
+            this.adsRefreshToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F6)));
+            this.adsRefreshToolStripMenuItem.Size = new System.Drawing.Size(375, 22);
+            this.adsRefreshToolStripMenuItem.Text = "Создание / Обновление рекламных кампаний";
             // 
             // mainForm
             // 
@@ -117,6 +151,10 @@
         private System.Windows.Forms.ToolStripMenuItem admitadProgramToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem операцииToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem actionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem feedRefreshТоварныхФидовToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem adsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adsRefreshToolStripMenuItem;
     }
 }
