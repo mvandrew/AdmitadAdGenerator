@@ -21,5 +21,12 @@ namespace AdmitadAdGenerator
         {
             Application.Exit();
         }
+
+        private void admitadAccountToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            References.admitadAccountsForm frm = new References.admitadAccountsForm();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

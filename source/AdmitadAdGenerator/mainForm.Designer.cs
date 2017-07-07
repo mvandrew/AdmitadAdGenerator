@@ -69,6 +69,7 @@
             this.admitadAccountToolStripMenuItem.Name = "admitadAccountToolStripMenuItem";
             this.admitadAccountToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.admitadAccountToolStripMenuItem.Text = "Аккаунты";
+            this.admitadAccountToolStripMenuItem.Click += new System.EventHandler(this.admitadAccountToolStripMenuItem_Click);
             // 
             // admitadProgramToolStripMenuItem
             // 
@@ -132,6 +133,7 @@
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(822, 484);
             this.Controls.Add(this.topMenu);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.topMenu;
             this.Name = "mainForm";
             this.Text = "Генератор рекламных объявлений из фидов Admitad";

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="073a2231-6e33-44bd-b3de-8f766a61fb4c" ChangeDateTime="07/07/2017 19:52:03">
+    <Property Name="ElementName" Value="[dbo].[AdmitadAccountsTable].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AdmitadAccountsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AccountName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3fe8b0f1-2662-43c9-8a71-bc95f1b16660" ChangeDateTime="07/07/2017 20:44:29">
+    <Property Name="ElementName" Value="[dbo].[AdmitadProgramsTable].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AdmitadProgramsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProgramId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0aaf627c-9c18-4cec-9655-db312881f62a" ChangeDateTime="07/07/2017 20:49:31">
+    <Property Name="ElementName" Value="[dbo].[AdmitadProgramsTable].[IX_AdmitadProgramsTable_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[AdmitadProgramsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_AdmitadProgramsTable_AccountName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea1c672c-976a-4e45-a6bf-ca343c0c8135" ChangeDateTime="07/07/2017 20:50:26">
+    <Property Name="ElementName" Value="[dbo].[AdmitadProgramsTable].[IX_AdmitadProgramsTable_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[AdmitadProgramsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_AdmitadProgramsTable_]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f977c4c4-5da5-462e-abbc-6e3daad44ffb" ChangeDateTime="07/07/2017 20:50:37">
+    <Property Name="ElementName" Value="[dbo].[AdmitadProgramsTable].[IX_AdmitadProgramsTable_]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[AdmitadProgramsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_AdmitadProgramsTable_ ProgramName]" />
+  </Operation>
+</Operations>
